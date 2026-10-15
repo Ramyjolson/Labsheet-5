@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    long long factorial = 1;
+    int i = 1;
+    cout << "Enter a number: ";
+    cin >> n;
+    while(i <= n) {
+        factorial *= i;
+        i++;
+    }
+    cout << "Factorial: " << factorial;
+    return 0;
+}
+
+
+OUTPUT
+Enter a number: 5
+Factorial: 120
